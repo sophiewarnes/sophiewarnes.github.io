@@ -22,7 +22,13 @@
         <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
         <ul>
             <li>Right click on column D and press insert, this should add a blank column in between "Owner" and "name"</li>
-            <li>Type "=CONCATENATE" and it should prompt you with this:<code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></li>
+            <li>Type "=CONCATENATE" and it should prompt you with this:<code>=CONCATENATE(text1, [text2])</code></li>
+            <li>Type in the brackets <code>C2," ",E2</code> </li>
+            <li>This tells it to pull in C2 (the first name), a space, and then E2 (the last name)</li>
+            <li>If you wanted to play around a bit you could use <code>=CONCATENATE(C2," owns a ",B2," called ",A2)</code></li>
+            <li>You'd then end up with a cell saying "Barry owns a chihuaha called Henry"</li>
+            <li>For the purposes of this, just make sure it says the first and second name with a gap</li>
+            <li>
         </ul>
     <h3>Pivot Tables</h3>
         <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.</p>
