@@ -6,18 +6,32 @@
     <link rel="stylesheet" href="css/style.css">
     <body>
     <h1>Excel tips and tricks</h1>
-        <p></p>
+        <p>I've sent you all an Excel spreadsheet called dogs and owners and we'll use that to go through some of these.</p>
     <h3>Text to column</h3>
+        <p>Text to column is really useful if you need to split information in a cell up, eg if you are working with geographical info etc or if you need to split out words for whatever reason. Usually you split by space but you can split by any single character you want.</p> 
+        <ul>
+            <li>Right click on column D and press insert, this should add a blank column</li>
+            <li>Highlight column C ("Owner name")</li>
+            <li>Select Data from the top menu, then Text to columns</li>
+            <li>Should look like this <img src=""></li>
+        </ul>
         
-    <h3>Pivot Tables</h3>       
+    <h3>Pivot Tables</h3>
+        <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.</p>
+        <p>
     <h3>VLOOKUP Function</h3>
-        <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code>
-        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and</p>
-        <p>Some notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in). Other problems may occur when the </p>
-    <h3>CONCATENATE</h3>       
+            <p>If you type in =VLOOKUP in Excel it will prompt you with this:</p>
+            <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code>
+        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a fuzzy match.
+        <br />Here's a good example of what you can </p>
+        <p>Some notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
+
+        
+    <h3>CONCATENATE</h3>  
+        <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
     <h3>Basic Rules</h3>       
     <h3>LEFT/RIGHT/MID</h3>
-        <p></p>
+        <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the </p>
     <h3>COUNT</h3>        
     <h3>Delete blank rows (+ Macro) </h3>
         <p>This is useful if you have messy data where there are several tables with rows missing in between.</p>
