@@ -13,9 +13,17 @@
             <li>Right click on column D and press insert, this should add a blank column</li>
             <li>Highlight column C ("Owner name")</li>
             <li>Select Data from the top menu, then Text to columns</li>
-            <li>Should look like this <img src="img/TextToCol1.png" height="100"></li>
+            <li>Should look like <a href="img/TextToCol1.png">this image</a></li>
+            <li>Keep it to delimited and click next</li>
+            <li>"Delimiter" is how Excel knows where to split, so make sure "space" is ticked (you should see the difference in the preview box between Space being ticked and unticked)</li>
+            <li>Click finish!</li>
         </ul>
-        
+    <h3>CONCATENATE</h3>  
+        <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
+        <ul>
+            <li>Right click on column D and press insert, this should add a blank column in between "Owner" and "name"</li>
+            <li>Type "=CONCATENATE" and it should prompt you with this:<code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></li>
+        </ul>
     <h3>Pivot Tables</h3>
         <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.</p>
         <p>
@@ -27,9 +35,7 @@
         <p>Some notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
 
         
-    <h3>CONCATENATE</h3>  
-        <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
-    <h3>Basic Rules</h3>       
+ <h3>Basic Rules</h3>       
     <h3>LEFT/RIGHT/MID</h3>
         <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the </p>
     <h3>COUNT</h3>        
