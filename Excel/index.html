@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <body>
     <h1>Excel tips and tricks</h1>
-        <p>Download <a href="files/Dogs%20and%20Owners.xlsx">this spreadsheet</a> as we'll use this to go through some examples.</p>
-    <h3>Text to column</h3>
+        <p>Download <a href="files/Dogs%20and%20Owners.xlsx">this spreadsheet</a> as we'll use this to go through some examples.
+            <br /> <a href="#text">Text to column</a> | <a href="#concat">CONCATENATE</a> | <a href="#pivot">Pivot Tables</a> | <a href="#vlookup">VLOOKUP</a> | <a href="#left">LEFT, RIGHT, MID</a> | <a href="#blanks">Delete blank rows</a>
+        </p>
+    <h3 id="text">Text to column</h3>
         <p>Text to column is really useful if you need to split information in a cell up, eg if you are working with geographical info etc or if you need to split out words for whatever reason. Usually you split by space but you can split by any single character you want.</p> 
         <ul>
             <li>Right click on column D and press insert, this should add a blank column</li>
@@ -18,7 +20,7 @@
             <li>"Delimiter" is how Excel knows where to split, so make sure "space" is ticked (you should see the difference in the preview box between Space being ticked and unticked)</li>
             <li>Click finish!</li>
         </ul>
-    <h3>CONCATENATE</h3>  
+    <h3 id="concat">CONCATENATE</h3>  
         <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
         <ul>
             <li>Right click on column D and press insert, this should add a blank column in between "Owner" and "name"</li>
@@ -30,10 +32,10 @@
             <li>For the purposes of this, just make sure it says the first and second name with a gap</li>
             <li>
         </ul>
-    <h3>Pivot Tables</h3>
+    <h3 id="pivot">Pivot Tables</h3>
         <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.</p>
         <p>
-    <h3>VLOOKUP Function</h3>
+    <h3 id="vlookup">VLOOKUP Function</h3>
             <p>If you type in =VLOOKUP in Excel it will prompt you with this:</p>
             <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code>
         <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a fuzzy match.
@@ -42,10 +44,10 @@
 
         
  <h3>Basic Rules</h3>       
-    <h3>LEFT/RIGHT/MID</h3>
+    <h3 id="left">LEFT/RIGHT/MID</h3>
         <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the </p>
-    <h3>COUNT</h3>        
-    <h3>Delete blank rows (+ Macro) </h3>
+    <h3 id="count">COUNT</h3>        
+    <h3 id="blanks">Delete blank rows (+ Macro) </h3>
         <p>This is useful if you have messy data where there are several tables with rows missing in between.</p>
         <ul>
             <li>Check that the rows are blank all the way across, or this won't work</li>
