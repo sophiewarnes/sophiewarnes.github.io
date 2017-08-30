@@ -8,8 +8,9 @@
     <h1>Excel tips and tricks</h1>
         <p>Download <a href="files/Dogs%20and%20Owners.xlsx">this spreadsheet</a> as we'll use this to go through some examples.
             <br /> <a href="#text">Text to column</a> | <a href="#concat">CONCATENATE</a> | <a href="#pivot">Pivot Tables</a> | <a href="#vlookup">VLOOKUP</a> | <a href="#left">LEFT, RIGHT, MID</a> | <a href="#blanks">Delete blank rows</a>
-        <img src="https://media.tenor.com/images/0b73b9822898ecf8c2f0a74469c6e337/tenor.gif"></p>
+        </p>
     <h3 id="text">Text to column</h3>
+        <img src="https://media.tenor.com/images/0b73b9822898ecf8c2f0a74469c6e337/tenor.gif">
         <p>Text to column is really useful if you need to split information in a cell up, eg if you are working with geographical info etc or if you need to split out words for whatever reason. Usually you split by space but you can split by any single character you want.</p> 
         <ul>
             <li>Right click on column D and press insert, this should add a blank column</li>
@@ -29,15 +30,15 @@
             <li>This tells it to pull in C2 (the first name), a space, and then E2 (the last name)</li>
             <li>If you wanted to play around a bit you could use <code>=CONCATENATE(C2," owns a ",B2," called ",A2)</code></li>
             <li>You'd then end up with a cell saying "Barry owns a chihuaha called Henry"</li>
-            <li>For the purposes of this, just make sure it says the first and second name with a gap</li>
-            <li>Copy column D, and paste it in again as values</li>
+            <li>For the purposes of this, just make sure it says the first and second name with a gap, and double click the bottom right hand corner to drag the formula down the entire column</li>
+            <li>Copy column D, and paste it in again as values (right click -> paste special -> values) </li>
             <li>Delete columns C and E and you should be back where you started</li>
         </ul>
     <h3 id="pivot">Pivot Tables</h3>
         <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/27/19/enhanced/webdr05/anigif_enhanced-10862-1440716708-15.gif?downsize=715:*&output-format=auto&output-quality=auto">
         <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.
         <ul>
-            <li>Select all (CTRL A)</li>
+            <li>Select all (CTRL-A)</li>
             <li>Click Data and then Pivot Table. It should create a new sheet with a pivot table on</li>
             <li>You'll see there's a box to the right with 'Field name', and below that an area with 'Row Labels', 'Column Labels', and 'Values'</li>
             <li>The field name is all the attributes (column names) you have, and you can drag and drop these into any of the three boxes below (including report filters, but let's not get into that)</li>
@@ -49,24 +50,37 @@
     <h3 id="vlookup">VLOOKUP Function</h3>
     <img src="http://wake-me-up.co/assets/img/chipmunk.gif">
             <p>If you type in =VLOOKUP in Excel it will prompt you with this: <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
-        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a "fuzzy" match. Usually we use FALSE for this last value.</p>
+        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a "fuzzy" match. I've never used anything but FALSE for this last value.
         <br />Let's say that we want to add the names of the dog next to the name. If you look at the second worksheet 'Partners' you can see we have the names of the owners and their respective partners. The column we are matching is the owner name.</p>
         <ul>
             <li>Move the owner name column to the front of the table in the Dogs sheet (cut and insert is easiest)</li>
             <li>Click anywhere in this table, select all (CTRL A) and then where the box at the top of the sheet has the cell reference, click on that and rename it "dogdata"</li>
-            <li>Go to the Partners worksheet and in C1 write "Dog" for the heading</li>
-            <li>Go to the Partners worksheet and in C1 write "Dog" for the heading</li>
+            <li>Go to the Partners worksheet and in C1 write "Dog name" for the heading</li>
+            <li>Go to C2 and write <code>=VLOOKUP(A2,dogdata,2,FALSE)</code></li>
+            <li>Here's what that means: A2 is the name we want, dogdata is the name of the table of data we specified earlier, 2 is the second column in this table of data (with dog names in it), and FALSE because we want it to be exact</li>
+            <li>It should have pulled in the name Henry. Drag the corner of the cell down (or double click it)</li>
+            <li>Note you can also pull in any other column from that table just by referencing the column number, so 3 would bring in breed; 4, gender; 5, age</li>
         </ul>
-        <p>Some notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
+        <p>Notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
    
     <h3 id="left">LEFT/RIGHT/MID</h3>
-        <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the </p>
+        <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the date, or one bit of the text for whatever reason. This is pretty easy! </p>
+        <ul>
+            <li>Select a new column on the Dogs sheet at the end of the table and call it "Left"</li>
+            <li>Type into the second row <code>=LEFT(C2,3)</code> where C2 is the cell we're referencing and 3 is the number of characters we need</li>
+            <li>It should have picked up "chi". Change the LEFT to RIGHT and see that it picks up "aha"</li>
+            <li>MID is slightly different in that you need to specify the start character as well as the number of characters you want it to select</li>
+            <li>Try <code>=MID(4,5)</code> and see that it has selected "huaha"</li>
+        </ul>
     <h3 id="count">COUNT</h3>        
     <h3 id="blanks">Delete blank rows (+ Macro) </h3>
         <p>This is useful if you have messy data where there are several tables with rows missing in between.</p>
         <ul>
-            <li>Check that the rows are blank all the way across, or this won't work</li>
-            <li>Make sure you have</li>
+            <li>Insert a few blank rows into the table to separate out the cells with text in - when there are gaps like this you can't reliably filter or sort any values because Excel doesn't pick them all up</li>
+            <li>Select column A and select Edit -> Go to... -> Press Special... -> Select Blanks and then press OK</li>
+            <li>Either: Click Edit -> Delete -> Entire Row, or...</li>
+            <li>Go to the Cells box on the Home tab, click the arrow next to Delete and select Delete Rows </li>
         </ul>
+        <p>Note: When you do this in another spreadsheet, check that the rows are blank all the way across, or this won't work (you'll accidentally delete data!)</p>
     </body>
 </html>
