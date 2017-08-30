@@ -21,7 +21,7 @@
             <li>Click finish!</li>
         </ul>
     <h3 id="concat">CONCATENATE</h3>  
-        <p>Concatenate allows you to add things on to each other. So we can effectively undo what we did with text to columns above.</p>
+        <p>Concatenate allows you to combine strings (either written in, or in a cell) together. So we can effectively undo what we did with text to columns above.</p>
         <ul>
             <li>Right click on column D and press insert, this should add a blank column in between "Owner" and "name"</li>
             <li>Type "=CONCATENATE" and it should prompt you with this:<code>=CONCATENATE(text1, [text2])</code></li>
@@ -30,16 +30,30 @@
             <li>If you wanted to play around a bit you could use <code>=CONCATENATE(C2," owns a ",B2," called ",A2)</code></li>
             <li>You'd then end up with a cell saying "Barry owns a chihuaha called Henry"</li>
             <li>For the purposes of this, just make sure it says the first and second name with a gap</li>
-            <li>
+            <li>Copy column D, and paste it in again as values</li>
+            <li>Delete columns C and E and you should be back where you started</li>
         </ul>
     <h3 id="pivot">Pivot Tables</h3>
-        <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.</p>
-        <p>
+        <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.
+        <ul>
+            <li>Select all (CTRL A)</li>
+            <li>Click Data and then Pivot Table. It should create a new sheet with a pivot table on</li>
+            <li>You'll see there's a box to the right with 'Field name', and below that an area with 'Row Labels', 'Column Labels', and 'Values'</li>
+            <li>The field name is all the attributes (column names) you have, and you can drag and drop these into any of the three boxes below (including report filters, but let's not get into that)</li>
+            <li>Row Labels and Column Labels are self explanatory, but Values is interesting: Here, you can specify not only the field but also how you want the values to be calculated. You can pick SUM, COUNT, AVERAGE, MAX, of every value.</li>
+            <li>Drag Breeds into Row Labels, and Age into Values. Press the little i and change SUM to AVERAGE, and then you have the average age of the dogs of each breed</li>
+            <li>Get rid of the Age field by dragging it off Values. Drag in Gender to the Column Labels, and into the Values box. You can now see how many women and men own each breed</li>
+        </ul>
+        </p>
     <h3 id="vlookup">VLOOKUP Function</h3>
             <p>If you type in =VLOOKUP in Excel it will prompt you with this:</p>
             <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code>
-        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a fuzzy match.
-        <br />Here's a good example of what you can </p>
+        <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a "fuzzy" match. Usually we 
+        <br />Let's say that we want to add the names of the dog next to the name. If you look at the second worksheet 'Partners' you can see we have the names of the owners and their respective partners. The column we are matching is the owner name.</p>
+        <ul>
+            <li>Move the owner name column to the front of the table in the Dogs sheet (cut and insert is easiest)</li>
+            <li>Move the owner name column to the front of the table (cut and insert is easiest)</li>
+        </ul>
         <p>Some notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
 
         
