@@ -10,7 +10,7 @@
         <p>Download <a href="files/Dogs%20and%20Owners.xlsx">this spreadsheet</a> as we'll use this to go through some examples.
             <p>Contents: <a href="#text">Text to column</a> | <a href="#concat">CONCATENATE</a> | <a href="#pivot">Pivot Tables</a> | <a href="#vlookup">VLOOKUP</a> | <a href="#left">LEFT, RIGHT, MID</a> | <a href="#blanks">Delete blank rows</a>
         </p>
-        <h3 id="text">Text to column</h3> <a href="#top">^</a>
+        <h3 id="text">Text to column <a href="#top">^</a></h3>
         <img src="https://media.tenor.com/images/0b73b9822898ecf8c2f0a74469c6e337/tenor.gif">
         <p>Text to column is really useful if you need to split information in a cell up, eg if you are working with geographical info etc or if you need to split out words for whatever reason. Usually you split by space but you can split by any single character you want.</p> 
         <ul>
@@ -35,7 +35,7 @@
             <li>Copy column D, and paste it in again as values (right click -> paste special -> values) </li>
             <li>Delete columns C and E and you should be back where you started</li>
         </ul>
-    <h3 id="pivot">Pivot Tables</h3> <a href="#top">^</a>
+    <h3 id="pivot">Pivot Tables <a href="#top">^</a></h3>
         <img src="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/27/19/enhanced/webdr05/anigif_enhanced-10862-1440716708-15.gif?downsize=715:*&output-format=auto&output-quality=auto">
         <p>Pivot tables are useful if you have large datasets that you want to cross-examine or slice and cut any way that is useful.
         <ul>
@@ -48,7 +48,7 @@
             <li>Get rid of the Age field by dragging it off Values. Drag in Gender to the Column Labels, and into the Values box. You can now see how many women and men own each breed</li>
         </ul>
         </p>
-    <h3 id="vlookup">VLOOKUP Function</h3> <a href="#top">^</a>
+    <h3 id="vlookup">VLOOKUP Function <a href="#top">^</a></h3>
     <img src="http://wake-me-up.co/assets/img/chipmunk.gif">
             <p>If you type in =VLOOKUP in Excel it will prompt you with this: <code>=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</code></p>
         <p>What this means is: Look for this specific value, in this selection of data, match it with this column, and either look for a true match or a "fuzzy" match. I've never used anything but FALSE for this last value.
@@ -64,7 +64,7 @@
         </ul>
         <p>Notes: VLOOKUP can be a bit fiddly sometimes. Make sure that your lookup_value (the value you want to check against) is in the first column of the table_array (the data range you're looking in).</p>
    
-    <h3 id="left">LEFT/RIGHT/MID</h3> <a href="#top">^</a>
+    <h3 id="left">LEFT/RIGHT/MID <a href="#top">^</a></h3>
         <p>Sometimes you may need to pick out values from a cell, perhaps the year portion of the date, or one bit of the text for whatever reason. This is pretty easy! </p>
         <ul>
             <li>Select a new column on the Dogs sheet at the end of the table and call it "Left"</li>
@@ -73,7 +73,7 @@
             <li>MID is slightly different in that you need to specify the start character as well as the number of characters you want it to select</li>
             <li>Try <code>=MID(4,5)</code> and see that it has selected "huaha"</li>
         </ul>   
-    <h3 id="blanks">Delete blank rows</h3> <a href="#top">^</a>
+    <h3 id="blanks">Delete blank rows <a href="#top">^</a></h3>
         <p>This is useful if you have messy data where there are several tables with rows missing in between.</p>
         <ul>
             <li>Insert a few blank rows into the table to separate out the cells with text in - when there are gaps like this you can't reliably filter or sort any values because Excel doesn't pick them all up</li>
