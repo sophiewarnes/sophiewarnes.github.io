@@ -9,6 +9,13 @@ body {
   color: #333;
 }
 
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 body > *:first-child {
   margin-top: 0 !important;
 }
