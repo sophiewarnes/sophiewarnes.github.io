@@ -3,6 +3,7 @@
 ## Contents
 * [Before you start](#before-you-start) including data dictionary
 * [Further reading on visual encoding](#more-info-about-encoding)
+* [Further reading](#further-reading)
 * [Thanks](#thanks)
 
 ### Before you start
@@ -74,30 +75,54 @@ Save it as a HTML page (for instance "highcharttutorial.html"). Then, paste this
  
 Save it again and open it in a browser. It should look like this:
 
-![Basic Highchart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/first-chart.PNG "Basic Highcharts chart")
+![Basic Highchart chart 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/first-chart.PNG "Basic Highcharts chart")
 
-This is fine but it's a line chart (which won't work for our data), it has no title,  no categories, there's a Highcharts logo on it, and the axes aren't labelled. It's a bit useless for what we want to make. We are better off adding a few more different settings so we can make it look a bit better:
+This is fine but it's a line chart (which won't work for our data), it has no title,  no categories, there's a Highcharts logo on it, and the axes aren't labelled. It's a bit useless for what we want to make.
 
-```html
-$('#container').highcharts({
+We need to add a few more different settings so we can make it look a bit better:
+
+```javascript
+    $('#container').highcharts({
   chart: {
     type: 'column'
   },
+  credits: {
+    enabled: false // removes Highcharts.com logo at the bottom
+  },
   title: {
-    text: 'Results of the 2015 U.K. general election'
+  text: 'Organisations reporting their GPG, by number of employees'
   },
   xAxis: {
-    categories: ['CON', 'LAB', 'SNP', 'LD', 'OTHER']
+  categories: ['< 250', '250-499', '500-999', '1,000-4,999', '5,000-19,999', '20,000+', 'Not provided']
+  },
+  xAxis: {
+    title: {
+    text:'Number of employees in organisation'
+    }
+  },
+  yAxis: {
+    title: null // disables title on y axis
+  },
+  legend: {
+    enabled: false // disables legend
   },
   series: [{
-    data: [331, 232, 56, 8, 23]
+    data: [190, 3334, 1792, 1578, 325, 42, 142]
   }]
 });
 ```
 
-[Highcharts API reference documentation](http://api.highcharts.com/highcharts)
+If you are completely new to HTML, the // in the code snippet are a comment, which tells the browser to ignore whatever comes after it. It's really useful for leaving notes for yourself!
 
-### More info about encoding
+It's hard to remember exactly what the configuration options are, so there is some very handy [Highcharts API reference documentation](http://api.highcharts.com/highcharts) you can use.
+
+Now we've changed the title of the X axis, gotten rid of the annoying Highcharts logo and the legend, here's what that looks like:
+
+![Highcharts column chart with X axis title](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/second-chart.PNG "Highcharts column chart with X axis title")
+
+### Further reading
+
+#### More info about encoding
 
 If you are interested in reading any further about encoding - what I discussed in the presentation was very brief - O'Reilly has a [great chapter on encoding](https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch04.html "Designing Data Visualizations: Choose Appropriate Visual Encodings") which includes this really helpful resource:
 
