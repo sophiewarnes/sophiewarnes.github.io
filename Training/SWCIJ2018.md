@@ -61,6 +61,9 @@ Here's the starting bit of code for Highcharts:
 </html>
 ```
 
+It should look like this, which is a bit useless:
+![Basic Highchart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/first-chart.PNG "Basic Highcharts chart")
+
 ### More info about encoding
 
 If you are interested in reading any further about encoding - what I discussed in the presentation was very brief - O'Reilly has a [great chapter on encoding](https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch04.html "Designing Data Visualizations: Choose Appropriate Visual Encodings") which includes this really helpful resource:
