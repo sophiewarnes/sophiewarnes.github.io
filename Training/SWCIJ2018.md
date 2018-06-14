@@ -6,7 +6,37 @@
 
 
 ### Resources needed for this tutorial
-For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website]("https://gender-pay-gap.service.gov.uk/" Gender Pay Gap Statistics) but the data was quite messy. For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/UKGPG-17-18.csv "UK Gender Pay Gap Data")
+For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data was quite messy.
+
+For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/UKGPG-17-18.csv "UK Gender Pay Gap Data")
+
+#### Data Dictionary
+
+* `UKGPG-17-18.csv` contains one row for every company which submitted data to the government regarding their gender pay gap.
+  * **Name of company:** Self-explanatory; the name of the company.
+  * **Address:** Full address where possible, including postcodes.
+  * **CompanyNumber:** 
+  * **SicCodes:**
+  * **DiffMeanHourlyPercent:**
+  * **DiffMedianHourlyPercent:**
+  * **DiffMeanBonusPercent:**
+  * **DiffMedianBonusPercent:**
+  * **MaleBonusPercent:**
+  * **FemaleBonusPercent:**
+  * **MaleLowerQuartile:**
+  * **FemaleLowerQuartile:**
+  * **MaleLowerMiddleQuartile:**
+  * **FemaleLowerMiddleQuartile:**
+  * **MaleUpperMiddleQuartile:**
+  * **FemaleUpperMiddleQuartile:**
+  * **MaleTopQuartile:**
+  * **FemaleTopQuartile:**
+  * **EmployerSize:** The number of employees the company has. 
+  * **SubmittedAfterDeadline:** A Boolean (TRUE or FALSE) value indicating whether it was submitted after the deadline or before.
+
+
+
+
 
 
 ### More info about encoding
