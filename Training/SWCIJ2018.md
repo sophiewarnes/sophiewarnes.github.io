@@ -8,15 +8,15 @@
 ### Resources needed for this tutorial
 For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data was quite messy.
 
-For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/UKGPG-17-18.csv "UK Gender Pay Gap Data")
+For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/clean-gpg-data.csv "UK Gender Pay Gap Data")
 
 #### Data Dictionary
 
-* `UKGPG-17-18.csv` contains one row for every company which submitted data to the government regarding their gender pay gap.
-  * **Name of company:** Self-explanatory; the name of the company.
+* The file `clean-gpg-data.csv` contains one row for every company which submitted data to the government regarding their gender pay gap. The column headings are:
+  * **CompanyName:** The name of the company.
   * **Address:** Full address where possible, including postcodes.
-  * **CompanyNumber:** 
-  * **SicCodes:**
+  * **CompanyNumber:** The company number as registered at [Companies House](https://www.gov.uk/government/organisations/companies-house "Companies House")
+  * **SicCodes:** The Standard Industrial Classification code (for more information, all SIC codes are [listed on Companies House here](https://resources.companieshouse.gov.uk/sic/ "(SIC) Code List")
   * **DiffMeanHourlyPercent:**
   * **DiffMedianHourlyPercent:**
   * **DiffMeanBonusPercent:**
