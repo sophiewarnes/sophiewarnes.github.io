@@ -2,7 +2,6 @@
 
 ## Contents
 [Resources](#resources)
-
 [Further reading on visual encoding](#more-info-about-encoding)
 
 
