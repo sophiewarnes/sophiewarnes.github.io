@@ -114,7 +114,7 @@ We need to add a few more different settings so we can make it look a bit better
 });
 ```
 
-If you are completely new to HTML, the // in the code snippet are a comment, which tells the browser to ignore whatever comes after it. It's really useful for leaving notes for yourself!
+> <strong>New to HTML?</strong> The forward slashes you see `//` in the code snippet are a comment, which tells the browser to ignore whatever comes after it. It's really useful for leaving notes for yourself so you can remember what does what.
 
 It's hard to remember exactly what the configuration options are, so there is some very handy [Highcharts API reference documentation](http://api.highcharts.com/highcharts) you can use.
 
