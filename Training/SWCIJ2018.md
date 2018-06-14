@@ -15,7 +15,7 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
 <details> 
  <Summary><strong>Data Dictionary</strong> - click for details about the data</Summary>
 
-* The file `clean-gpg-data.csv` contains one row for every company which submitted data to the government regarding their gender pay gap. For the hourly comparison columsn, a minus value means women have higher pay, and a positive value means men have higher pay. The column headings are:
+The file `clean-gpg-data.csv` contains one row for every company which submitted data to the government regarding their gender pay gap. For the hourly comparison columsn, a minus value means women have higher pay, and a positive value means men have higher pay. The column headings are:
   * **CompanyName:** The name of the company.
   * **Address:** Full address where possible, including postcodes.
   * **CompanyNumber:** The company number as registered at [Companies House](https://www.gov.uk/government/organisations/companies-house "Companies House")
