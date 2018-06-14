@@ -52,7 +52,7 @@ Here's the starting bit of code for Highcharts:
   <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
 <body>
-  <div id="container" style="height: 400px;"></div>
+  <div id="container" style="height: 400px; width: 500px;"></div>
   <script src="http://code.highcharts.com/highcharts.js"></script>
   <script type="text/javascript">
     // highcharts code goes here
@@ -61,8 +61,36 @@ Here's the starting bit of code for Highcharts:
 </html>
 ```
 
-It should look like this, which is a bit useless:
+Then, paste this in between the <script> tags:
+```javascript
+ $('#container').highcharts({
+  series: [{
+    data: [190, 3334, 1792, 1578, 325, 42, 142]
+  }]
+});
+```
+ 
+It should look like this:
+
 ![Basic Highchart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/first-chart.PNG "Basic Highcharts chart")
+
+This is fine but a bit useless for our purposes. We are better off changing the 
+
+```html
+$('#container').highcharts({
+  chart: {
+    type: 'column'
+  },
+  title: {
+    text: 'Results of the 2015 U.K. general election'
+  },
+  xAxis: {
+    categories: ['CON', 'LAB', 'SNP', 'LD', 'OTHER']
+  },
+  series: [{
+    data: [331, 232, 56, 8, 23]
+  }]
+});
 
 ### More info about encoding
 
