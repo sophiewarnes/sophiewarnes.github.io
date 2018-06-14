@@ -19,8 +19,8 @@ The file `clean-gpg-data.csv` contains one row for every company which submitted
 <ul>
 <li> <strong>CompanyName:</strong> The name of the company.</li>
 <li> <strong>Address:</strong> Full address where possible, including postcodes.</li>
-<li> <strong>CompanyNumber:</strong> The company number as registered at [Companies House](https://www.</li>gov.</li>uk/government/organisations/companies-house "Companies House").</li>
-<li> <strong>SicCodes:</strong> The Standard Industrial Classification code (for more information, all SIC codes are [listed on Companies House here](https://resources.</li>companieshouse.</li>gov.</li>uk/sic/ "(SIC) Code List").</li>
+<li> <strong>CompanyNumber:</strong> The company number as registered at [Companies House](https://www.>gov.uk/government/organisations/companies-house "Companies House").</li>
+<li> <strong>SicCodes:</strong> The Standard Industrial Classification code (for more information, all SIC codes are [listed on Companies House here](https://resources.companieshouse.gov.uk/sic/ "(SIC) Code List").</li>
 <li> <strong>DiffMeanHourlyPercent:</strong> Mean pay gap between men and women.</li>
 <li> <strong>DiffMedianHourlyPercent:</strong> Median pay gap between men and women.</li>
 <li> <strong>DiffMeanBonusPercent:</strong> Mean bonus pay gap between men and women.</li>
@@ -35,7 +35,7 @@ The file `clean-gpg-data.csv` contains one row for every company which submitted
 <li> <strong>FemaleUpperMiddleQuartile:</strong> The proportion of women with salaries in the upper middle quartile (paid above the median and at or below the 75th percentile point).</li>
 <li> <strong>MaleTopQuartile:</strong> The proportion of men with salaries in the top quartile of the whole organisation (paid above the 75th percentile point).</li>
 <li> <strong>FemaleTopQuartile:</strong> The proportion of women with salaries in the top quartile of the whole organisation (paid above the 75th percentile point).</li>
-<li> <strong>EmployerSize:</strong> The number of employees the company has.</li> </li>These are in buckets, such as 250 to 499 and 500 to 999.</li>
+<li> <strong>EmployerSize:</strong> The number of employees the company has. These are in buckets, such as 250 to 499 and 500 to 999.</li>
 <li> <strong>SubmittedAfterDeadline:</strong> A Boolean (TRUE or FALSE) value indicating whether it was submitted after the deadline or before.</li>
 </ul>
 </details>
