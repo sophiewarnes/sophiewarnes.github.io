@@ -1,7 +1,7 @@
 # Soph's CIJ Summer 2018 tutorial/materials
 
 ## Contents
-[More info about encoding](#More info about encoding)
+[More info about encoding](#more-info-about-encoding)
 
 ### More info about encoding
 
