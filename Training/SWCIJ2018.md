@@ -63,7 +63,7 @@ Create a new text document and open it in your favourite text editor. Here's the
 </html>
 ```
 
-Save it as a HTML page (for instance "highcharttutorial.html"). Then, paste this in between the <script> tags:
+Save it as a HTML page (for instance "highcharttutorial.html"). Then, paste this in between the second `<script>` tags:
 ```javascript
  $('#container').highcharts({
   series: [{
