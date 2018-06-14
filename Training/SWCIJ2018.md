@@ -2,7 +2,9 @@
 
 ## Contents
 [Resources](#resources)
+
 [Further reading on visual encoding](#more-info-about-encoding)
+
 
 ### Resources needed for this tutorial
 For this small project, we are going to be visualising gender pay gap data as collected by the government.
