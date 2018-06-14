@@ -40,8 +40,8 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
 
 Highcharts is a really easy library to use and doesn't need much code. All you need to do is set up a `<div>` container called "container", and pull in the Highcharts library and jquery. The link to the library is `http://code.highcharts.com/highcharts.js` so this .
 
-Here's the set-up code for the `<div>`:
-`<!DOCTYPE html>
+Here's the starting bit of code for Highcharts:
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8" />
@@ -55,7 +55,7 @@ Here's the set-up code for the `<div>`:
     // highcharts code goes here
   </script>
 </body>
-</html>`
+</html>
 
 
 ### More info about encoding
