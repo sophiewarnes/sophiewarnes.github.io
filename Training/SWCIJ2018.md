@@ -1,13 +1,12 @@
 # Soph's CIJ Summer 2018 tutorial/materials
 
 ## Contents
-[Resources](#resources)
-[Further reading on visual encoding](#more-info-about-encoding)
+* [Resources](#resources) including data dictionary
+* [Further reading on visual encoding](#more-info-about-encoding)
 
 
 ### Resources needed for this tutorial
-For this small project, we are going to be visualising gender pay gap data as collected by the government.
-[Download the GPG data](./files/UKGPG-17-18.csv "UK Gender Pay Gap Data")
+For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website]("https://gender-pay-gap.service.gov.uk/" Gender Pay Gap Statistics) but the data was quite messy. For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/UKGPG-17-18.csv "UK Gender Pay Gap Data")
 
 
 ### More info about encoding
