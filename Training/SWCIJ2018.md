@@ -2,6 +2,8 @@
 
 ## Contents
 * [Before you start](#before-you-start) including data dictionary
+* [Your first Highchart](#your-first-highchart)
+* [A much more useful chart](#a-much-more-useful-chart)
 * [Further reading on visual encoding](#more-info-about-encoding)
 * [Further reading](#further-reading)
 * [Thanks](#thanks)
@@ -78,6 +80,8 @@ Save it again and open it in a browser. It should look like this:
 ![Basic Highchart chart 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/first-chart.PNG "Basic Highcharts chart")
 
 This is fine but it's a line chart (which won't work for our data), it has no title,  no categories, there's a Highcharts logo on it, and the axes aren't labelled. It's a bit useless for what we want to make.
+
+### A much more useful chart
 
 We need to add a few more different settings so we can make it look a bit better:
 
