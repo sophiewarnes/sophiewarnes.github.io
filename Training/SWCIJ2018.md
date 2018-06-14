@@ -1,12 +1,12 @@
 # Soph's CIJ Summer 2018 tutorial/materials
 
 ## Contents
-* [Resources](#resources) including data dictionary
+* [Before you start](#before-you-start) including data dictionary
 * [Further reading on visual encoding](#more-info-about-encoding)
 * [Thanks](#thanks)
 
-### Resources needed for this tutorial
-For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data is incomplete and a little messy.
+### Before you start
+For this small project, we are going to be visualising gender pay gap data collected by the government using the [javascript library Highcharts](https://www.highcharts.com/ "Highcharts"). You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data is incomplete and a little messy.
 
 For the purposes of this tutorial, I cleaned the data, and you can download it here: [Right-click and save link as, to download the GPG data](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/clean-gpg-data.csv "UK Gender Pay Gap Data")
 
@@ -33,6 +33,8 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
   * **FemaleTopQuartile:** The proportion of women with salaries in the top quartile of the whole organisation (paid above the 75th percentile point).
   * **EmployerSize:** The number of employees the company has. These are in buckets, such as 250 to 499 and 500 to 999.
   * **SubmittedAfterDeadline:** A Boolean (TRUE or FALSE) value indicating whether it was submitted after the deadline or before.
+
+> **Very Important Note:** If you want to use this in your organisation for commercial use, you need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
 
 ### More info about encoding
 
