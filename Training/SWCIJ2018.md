@@ -12,7 +12,8 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
 
 > **Very Important Note:** If you want to use Highcharts an your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
 
-!>#### Data Dictionary
+<details> 
+ <Summary>#### Data Dictionary</Summary>
 
 * The file `clean-gpg-data.csv` contains one row for every company which submitted data to the government regarding their gender pay gap. For the hourly comparison columsn, a minus value means women have higher pay, and a positive value means men have higher pay. The column headings are:
   * **CompanyName:** The name of the company.
@@ -35,7 +36,7 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
   * **FemaleTopQuartile:** The proportion of women with salaries in the top quartile of the whole organisation (paid above the 75th percentile point).
   * **EmployerSize:** The number of employees the company has. These are in buckets, such as 250 to 499 and 500 to 999.
   * **SubmittedAfterDeadline:** A Boolean (TRUE or FALSE) value indicating whether it was submitted after the deadline or before.
-
+</details> 
 ### Your first Highchart
 
 Highcharts is a really easy library to use and doesn't need much code. All you need to do is set up a `<div>` container called "container", and pull in the Highcharts library and jquery. The link to the library is `http://code.highcharts.com/highcharts.js` so this .
