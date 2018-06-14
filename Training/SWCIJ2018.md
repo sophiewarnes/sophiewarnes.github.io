@@ -116,9 +116,9 @@ We need to add a few more different settings so we can make it look a bit better
 
 > <strong>New to HTML?</strong> The forward slashes you see `//` in the code snippet are a comment, which tells the browser to ignore whatever comes after it. It's really useful for leaving notes for yourself so you can remember what does what.
 
-It's hard to remember exactly what the configuration options are, so there is some very handy [Highcharts API reference documentation](http://api.highcharts.com/highcharts) you can use.
+It's hard to remember exactly what the configuration options are, so Highchart developers created the [Highcharts API reference documentation](http://api.highcharts.com/highcharts) which explains more about the different things you can do with a chart built in Highcharts.
 
-Now we've changed the title of the X axis, gotten rid of the annoying Highcharts logo and the legend, here's what that looks like:
+Now we've changed the title of the X axis, gotten rid of the annoying Highcharts logo and the legend, here's what that should look like:
 
 ![Highcharts column chart with X axis title](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/second-chart.PNG "Highcharts column chart with X axis title")
 
