@@ -4,12 +4,10 @@
 * [Resources](#resources) including data dictionary
 * [Further reading on visual encoding](#more-info-about-encoding)
 
-[testing link](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/clean-gpg-data.csv)
-
 ### Resources needed for this tutorial
 For this small project, we are going to be visualising gender pay gap data as collected by the government. You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data was quite messy.
 
-For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Download the GPG data](./Files/clean-gpg-data.csv "UK Gender Pay Gap Data")
+For the purposes of what we want to do today, I've cleaned up the data, which you can download: [Right-click and save link as, to download the GPG data](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/clean-gpg-data.csv "UK Gender Pay Gap Data")
 
 #### Data Dictionary
 
