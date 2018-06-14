@@ -13,7 +13,7 @@ For the purposes of this tutorial, I cleaned the data, and you can download it h
 > **Very Important Note:** If you want to use Highcharts an your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
 
 <details> 
- <Summary><strong>Data Dictionary</strong></Summary>
+ <Summary><strong>Data Dictionary</strong> - click for details about the data</Summary>
 
 * The file `clean-gpg-data.csv` contains one row for every company which submitted data to the government regarding their gender pay gap. For the hourly comparison columsn, a minus value means women have higher pay, and a positive value means men have higher pay. The column headings are:
   * **CompanyName:** The name of the company.
