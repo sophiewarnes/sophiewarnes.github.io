@@ -93,9 +93,7 @@ We need to add a few more different settings so we can make it look a bit better
   text: 'Organisations reporting their GPG, by number of employees'
   },
   xAxis: {
-
-    categories: ['< 250', '250-499', '500-999', '1,000-4,999', '5,000-19,999', '20,000+', 'Not provided']
-,
+    categories: ['< 250', '250-499', '500-999', '1,000-4,999', '5,000-19,999', '20,000+', 'Not provided'],
     title: {
     text:'Number of employees in organisation'
     }
