@@ -22,7 +22,7 @@ For this small project, we are going to be visualising gender pay gap data colle
 We are going to (try and) replicate this awesome chart [from the FT](https://ig.ft.com/gender-pay-gap-UK/ "FT Gender Pay Gap"):
 ![FT Chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/FTChart.png "FT Gender Pay Gap Chart")
 
-> **Very Important Note:** If you want to use Highcharts an your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
+> **Very Important Note:** If you want to use Highcharts at your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
 
 ### Your first Highchart
 
@@ -62,9 +62,11 @@ Save it again and open it in a browser. It should look like this:
 
 This is fine but it's a line chart (which won't work for our data), it has no title,  no categories, there's a Highcharts logo on it, and the axes aren't labelled. It's a bit useless for what we want to make.
 
+> While you're working on something like this, it's really useful to keep saving the text document and then refreshing the browser so you can see exactly what you're doing in real-time. There's a lot of back and forth!
+
 ### A much more useful chart
 
-We need to add a few more different settings so we can make it look a bit better:
+We need to add a few more different settings so we can make it look a bit better. We want to get rid of the highcharts logo at the bottom, add a good title, add in the categories and an X axis title, and get rid of the legend for now. Here's how we do those things:
 
 ```javascript
   $('#container').highcharts({
@@ -189,6 +191,9 @@ Lastly, I don't want any of the numbers to come up on the X axis because it's un
   	}
   },
 ```
+
+WELL DONE YOU!!!
+![Congratulations](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/welldoneyou.gif "Congratulations")
 
 If you're still stuck, [get the full final code here](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/highchartscode.txt "Full Highcharts Code")
   
