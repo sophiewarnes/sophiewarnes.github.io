@@ -7,8 +7,6 @@
 * [A much more useful chart](#a-much-more-useful-chart)
 * [Using data from a CSV file](#using-data-from-a-csv-file)
 * [Making it look pretty (styling!)](#making-it-look-pretty)
-* [Further reading on visual encoding](#more-info-about-encoding)
-* [Further reading](#further-reading)
 
 ### Requirements
 * A text editor (I recommend [Sublime Text](https://www.sublimetext.com/ "Sublime Text editor") as it marks things up really easily using colour, but textEdit or WordPad or another basic text editor will do! DO NOT USE MICROSOFT WORD!)
@@ -204,9 +202,3 @@ This is what you should have in the end:
 ![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-chart.png "Final finished chart")
 
 The bottom text is missing, but it's not bad is it?
-
-#### More info about encoding
-
-If you are interested in reading any further about encoding - what I discussed in the presentation was very brief - O'Reilly has a [great chapter on encoding](https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch04.html "Designing Data Visualizations: Choose Appropriate Visual Encodings") which includes this really helpful resource:
-
-![Understanding different types of data and encoding](https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/httpatomoreillycomsourceoreillyimages898026.png "Understanding different types of data and encoding")
