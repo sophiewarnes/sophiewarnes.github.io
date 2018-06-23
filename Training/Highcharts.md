@@ -1,7 +1,8 @@
-# Soph's CIJ Summer 2018 tutorial/materials
+# Highcharts tutorial, using UK gender pay gap data!
 
 ## Contents
-* [Before you start](#before-you-start) including data dictionary
+* [Requirements](#requirements)
+* [What are we doing?](#what-are-we-doing)
 * [Your first Highchart](#your-first-highchart)
 * [A much more useful chart](#a-much-more-useful-chart)
 * [Using data from a CSV file](#using-data-from-a-csv-file)
@@ -9,10 +10,16 @@
 * [Further reading on visual encoding](#more-info-about-encoding)
 * [Further reading](#further-reading)
 
-### Before you start
-For this small project, we are going to be visualising gender pay gap data collected by the government using the [javascript library Highcharts](https://www.highcharts.com/ "Highcharts"). You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data is incomplete and a little messy.
+### Requirements
+* A text editor (I recommend [Sublime Text](https://www.sublimetext.com/ "Sublime Text editor") as it marks things up really easily using colour, but textEdit or WordPad or another basic text editor will do! DO NOT USE MICROSOFT WORD!)
+* A browser (Chrome is great as it has a developer console which might help you figure out what went wrong, but any browser will do!)
+* Patience (most coding errors are tiny things like missed { or , and the sort of thing you will kick yourself over. Do not worry)
+* Enthusiasm is always appreciated :)
 
-For the purposes of this tutorial, I cleaned the data, and uploaded it to my GitHub account so you can access it directly. We are going to (try and) replicate this awesome chart [from the FT](https://ig.ft.com/gender-pay-gap-UK/ "FT Gender Pay Gap"):
+### What are we doing?
+For this small project, we are going to be visualising gender pay gap data collected by the government using the [javascript library Highcharts](https://www.highcharts.com/ "Highcharts"). You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data is incomplete and a little messy. For the purposes of this tutorial, I cleaned the data, and uploaded it to my GitHub account so you can access it directly.
+
+We are going to (try and) replicate this awesome chart [from the FT](https://ig.ft.com/gender-pay-gap-UK/ "FT Gender Pay Gap"):
 ![FT Chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/FTChart.png "FT Gender Pay Gap Chart")
 
 > **Very Important Note:** If you want to use Highcharts an your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
@@ -189,6 +196,8 @@ If you're still stuck, [get the full final code here](https://raw.githubusercont
 
 This is what you should have in the end:
 ![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-chart.png "Final finished chart")
+
+The bottom text is missing, but it's not bad is it?
 
 #### More info about encoding
 
