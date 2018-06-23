@@ -182,69 +182,13 @@ Lastly, I don't want any of the numbers to come up on the X axis because it's un
   	}
   },
 ```
-<details>
-  <summary>Get the whole code here</summary>
-  <code>
-    $('#container').highcharts({
-  chart: {
-    type: 'column',
-    backgroundColor: "#fff1e5"
-  },
-  data: {
-    enablePolling: false,
-    csvURL: 'https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/paygapdata.csv'
-  },
-  plotOptions: {
-        column: {
-            colorByPoint: true
-        },
-        series: {
-        	pointPadding: 0,
-        	groupPadding: 0,
-        	borderWidth: 0.2,
-        	zoneAxis: "x",
-            zones: [{
-                color: '#f93807',
-                value: 34
-            }, {
-                color: '#CCCCCC',
-                value: 35
-            }, {
-                color: '#00a4aa',
-                value: 74
-            }],
-        }
-    },
-  credits: {
-    enabled: false // removes Highcharts.com logo at the bottom
-  },
-  title: {
-  text: 'Who is paid more? (Median pay per hour)'
-  },
-  yAxis: {
-    opposite: true,
-    title: {
-    	align: 'high',
-        offset: 0,
-        text: 'COMPANIES',
-        rotation: 0,
-        y: -10
-    }
-  },
-  xAxis: {
-  	title: null,
-  	labels: {
-  		enabled:false
-  	}
-  },
-  legend: {
-    enabled: false // disables legend
-  },
-});
-  </code>
-</details>
+
+If you're still stuck, [get the full final code here](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/highchartscode.txt "Full Highcharts Code")
   
 > <strong> If your code is not working</strong> and the chart is not coming up, make sure that you have the correct amount of { and } symbols, and that the commas are in the right place.
+
+This is what you should have in the end:
+![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-chart.png "Final finished chart")
 
 #### More info about encoding
 
