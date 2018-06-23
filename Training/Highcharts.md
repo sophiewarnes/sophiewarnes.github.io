@@ -192,13 +192,13 @@ Lastly, I don't want any of the numbers to come up on the X axis because it's un
   },
 ```
 
-WELL DONE YOU!!! You did it!
-
-![Congratulations](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/welldoneyou.gif "Congratulations")
-
 If you're still stuck, [get the full final code here](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/highchartscode.txt "Full Highcharts Code")
   
 > <strong> If your code is not working</strong> and the chart is not coming up, make sure that you have the correct amount of { and } symbols, and that the commas are in the right place.
+
+WELL DONE YOU!!! You did it!
+
+![Congratulations](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/welldoneyou.gif "Congratulations")
 
 This is what you should have in the end:
 ![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-chart.png "Final finished chart")
