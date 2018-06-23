@@ -192,7 +192,8 @@ Lastly, I don't want any of the numbers to come up on the X axis because it's un
   },
 ```
 
-WELL DONE YOU!!!
+WELL DONE YOU!!! You did it!
+
 ![Congratulations](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/welldoneyou.gif "Congratulations")
 
 If you're still stuck, [get the full final code here](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/highchartscode.txt "Full Highcharts Code")
