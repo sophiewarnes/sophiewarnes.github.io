@@ -125,8 +125,126 @@ That should all now look something like this:
 ![Chart generated from CSV file](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/third-chart.png "Chart generated from CSV file")
 
 ### Making it look pretty
-Now we get onto the fun of styling up the chart so it works how we want it to.
+Now we get onto the fun of styling!
 
+We want it to have the distinctive FT background, to do this we need to add in `backgroundColor: #fff1e5` in the chart element like so:
+```javascript
+chart: {
+    type: 'column',
+    backgroundColor: "#fff1e5"
+  },
+```
+
+Then, add a plotOptions section. This means that we want to colour certain elements different colours. What we are doing here is picking out the columns on axis x - those which show women being paid less than men, and women being paid more than men. We also want to remove the padding in between the columns because they are a bit much - what we're trying to create is a <strong>histogram</strong> showing distribution of gender pay gaps, not just a column chart.
+```javascript
+plotOptions: {
+        column: {
+            colorByPoint: true
+        },
+        series: {
+        	pointPadding: 0,
+        	groupPadding: 0,
+        	borderWidth: 0.2,
+        	zoneAxis: "x",
+            zones: [{
+                color: '#f93807',
+                value: 34
+            }, {
+                color: '#CCCCCC',
+                value: 35
+            }, {
+                color: '#00a4aa',
+                value: 74
+            }],
+        }
+    },
+```
+Then we want to make sure that the title for the y axis is on the right-hand side. `Opposite` being set to `true` moves it to the right hand side, the text is what we want it to show, the `rotation` is 0 to make sure that it remains readable left to right (if this is not changed, it will be facing the wrong way - try the code without the `rotation` line and you'll see what I mean.) `y` is being set to -10 to make sure it floats above the top of the line on the right, and not on it.
+```javascript
+  yAxis: {
+    opposite: true,
+    title: {
+    	align: 'high',
+        offset: 0,
+        text: 'COMPANIES',
+        rotation: 0,
+        y: -10
+    }
+  },
+```
+
+Lastly, I don't want any of the numbers to come up on the X axis because it's unnecessary, so we'll take that out, too:
+```javascript
+  xAxis: {
+  	title: null,
+  	labels: {
+  		enabled:false
+  	}
+  },
+```
+<details>
+  <summary>Get the whole code here</summary>
+  <code>
+    $('#container').highcharts({
+  chart: {
+    type: 'column',
+    backgroundColor: "#fff1e5"
+  },
+  data: {
+    enablePolling: false,
+    csvURL: 'https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/paygapdata.csv'
+  },
+  plotOptions: {
+        column: {
+            colorByPoint: true
+        },
+        series: {
+        	pointPadding: 0,
+        	groupPadding: 0,
+        	borderWidth: 0.2,
+        	zoneAxis: "x",
+            zones: [{
+                color: '#f93807',
+                value: 34
+            }, {
+                color: '#CCCCCC',
+                value: 35
+            }, {
+                color: '#00a4aa',
+                value: 74
+            }],
+        }
+    },
+  credits: {
+    enabled: false // removes Highcharts.com logo at the bottom
+  },
+  title: {
+  text: 'Who is paid more? (Median pay per hour)'
+  },
+  yAxis: {
+    opposite: true,
+    title: {
+    	align: 'high',
+        offset: 0,
+        text: 'COMPANIES',
+        rotation: 0,
+        y: -10
+    }
+  },
+  xAxis: {
+  	title: null,
+  	labels: {
+  		enabled:false
+  	}
+  },
+  legend: {
+    enabled: false // disables legend
+  },
+});
+  </code>
+</details>
+  
+> <strong> If your code is not working</strong> and the chart is not coming up, make sure that you have the correct amount of { and } symbols, and that the commas are in the right place.
 
 #### More info about encoding
 
