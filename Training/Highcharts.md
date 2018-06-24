@@ -216,4 +216,4 @@ WELL DONE YOU!!! You did it!
 This is what you should have in the end:
 ![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-FT-chart.png "Final finished chart")
 
-The bottom text is missing, but it's not bad is it?
+There are better ways to do the text at the bottom, but it's not bad for a fudge, is it? :)
