@@ -214,6 +214,6 @@ WELL DONE YOU!!! You did it!
 ![Congratulations](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/welldoneyou.gif "Congratulations")
 
 This is what you should have in the end:
-![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-chart.png "Final finished chart")
+![Final chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/final-FT-chart.png "Final finished chart")
 
 The bottom text is missing, but it's not bad is it?
