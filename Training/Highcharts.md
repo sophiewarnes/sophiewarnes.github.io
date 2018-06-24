@@ -193,6 +193,8 @@ Next, the wording at the bottom! This is a bit of a fudge, which is the technica
   },
 ```
 
+This is a really small thing but I don't like the ticks that come off the chart on the x-axis, so add `tickLength: 0` (and a comma, if it comes before something else) to the `xAxis` element. That gets rid of them completely.
+
 Lastly, I don't want any of the numbers to come up on the X axis because it's unnecessary, so we'll take that out, too:
 ```javascript
   xAxis: {
