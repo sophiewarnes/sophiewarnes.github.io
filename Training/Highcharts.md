@@ -134,11 +134,12 @@ That should all now look something like this:
 ### Making it look pretty
 Now we get onto the fun of styling!
 
-We want it to have the distinctive FT background, to do this we need to add in `backgroundColor: #fff1e5` in the chart element like so:
+We want it to have the distinctive FT background, to do this we need to add in `backgroundColor: #fff1e5` in the chart element. We are also going to add a margin at the bottom for the text, so:
 ```javascript
 chart: {
     type: 'column',
-    backgroundColor: "#fff1e5"
+    backgroundColor: "#fff1e5",
+    marginBottom: 20
   },
 ```
 
@@ -177,6 +178,18 @@ Then we want to make sure that the title for the y axis is on the right-hand sid
         rotation: 0,
         y: -10
     }
+  },
+```
+
+Next, the wording at the bottom! This is a bit of a fudge, which is the technical term for 'there are more elegant ways to do this, but this works just fine'. We want to add something explaining what we're seeing - the left-hand side shows companies where women earn more than men, and the right-hand side shows women earning less than men. The `style` sets the colour, and x and y set the positions on the chart. X is minus, because 0 is based at the centre of the chart, as set by `align`. If Y was 0 it would be at the very top of the chart, which is why we are moving it all the way down until it's nearly at the bottom (remember, our chart is only 600px high).
+
+```javascript
+  subtitle: {
+    text: "< Women earn more  |  Women earn less >",
+    align: "center",
+    style: { "color": "#666666" },
+    x: -68,
+    y: 585
   },
 ```
 
