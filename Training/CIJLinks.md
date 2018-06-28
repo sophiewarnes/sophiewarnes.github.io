@@ -17,6 +17,7 @@
 ## Data viz theory & principles:
 * [What is visual encoding and why do we do it?](https://medium.com/@sophiewarnes/whats-visual-encoding-in-data-viz-and-why-is-it-important-7406bc88b4b4)
 * [Choosing appropriate visual encoding](https://www.oreilly.com/library/view/designing-data-visualizations/9781449314774/ch04.html)
+* [The FT's Visual Vocabulary](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
 
 ## Where to find inspiration/new data viz
 * [Fair Warning (this is my personal weekly newsletter!)](http://bit.ly/FWarning)
