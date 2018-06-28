@@ -47,7 +47,7 @@ Create a new text document and open it in your favourite text editor. Here's the
 
 Save it as a HTML page (for instance "highcharttutorial.html"). Then, paste this in between the second `<script>` tags:
 ```javascript
- $('#container').highcharts({
+$('#container').highcharts({
   series: [{
     data: [190, 3334, 1792, 1578, 325, 42, 142]
   }]
