@@ -1,4 +1,4 @@
-# Soph's CIJ workshop links!
+# Intro to data workshop links!
 
 ## Relevant links from the workshop
 * [Presentation slides](https://docs.google.com/presentation/d/1frstlpAXsee5FSTn3kdeWzBZZlD_1-SKzvBweShKjF8/edit?usp=sharing)
