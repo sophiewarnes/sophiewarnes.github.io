@@ -220,6 +220,4 @@ There are better ways to do the text at the bottom, but it's not bad for a fudge
 
 ### What next?
 
-If you have finished this, have a look at [this world population CSV file](https://raw.githubusercontent.com/highcharts/highcharts/master/samples/data/world-population-history.csv) and see if you can do anything with it (make sure you get the right link).
-
-Alternatively, look for other CSV files hosted online (Google "Filetype:CSV" and then whatever search term you want) and try and make a chart with that!
+If you have finished this, look for other CSV files hosted online (Google "Filetype:CSV" and then whatever search term you want) and try and make a chart with that!
