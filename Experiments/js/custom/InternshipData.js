@@ -44,10 +44,9 @@ $(function () {
             name: 'Internships',
             data: [24000,18000,18460,18564,15000,15000,14000],
             color: '#63c6ae'
-
-        },
+        }],
         credits: {
         enabled: false
-    }]
+        }
     });
 });
