@@ -29,8 +29,8 @@ $(function () {
             }
         },
         tooltip: {
-            headerFormat: '<b>£{point.x}</b><br />',
-            pointFormat: 'Date recorded: {point.DateAdded}'
+            headerFormat: '<b>{point.x}</b><br />',
+            pointFormat: '{series.name}: {point.y}<br/><b>Total:</b> {point.stackTotal}'
         },
         plotOptions: {
             column: {
@@ -42,36 +42,7 @@ $(function () {
         },
         series: [{
             name: 'Internships',
-            data: [
-            {
-                y : 24000,
-                DateAdded : '2018'
-            },
-            {
-                y : 18000,
-                DateAdded : '2018'
-            },
-            {
-                y: 18460,
-                DateAdded : '2018'
-            },
-            {
-                y: 18564,
-                DateAdded : '2018'
-            },
-            {
-                y: 15000,
-                DateAdded : '2018'
-            },
-            {
-                y: 15000,
-                DateAdded : '2018'
-            },
-            {
-                y: 14000,
-                DateAdded : '2018'
-            }
-            ],
+            data: [24000,18000,18460,18564,15000,15000,14000],
             color: '#63c6ae'
 
         },
