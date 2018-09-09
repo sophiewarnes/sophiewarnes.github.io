@@ -11,6 +11,9 @@ $(function () {
         },
         xAxis: {
             categories: ['The Economist Internship Schemes (JA)','ESPN Editorial Internship (JA)','The Telegraph Magazine Internship (JA)','The Financial Times (SB)','Time Inc Internship','Longitude Editorial Intern (SB)','Internship, National Tabloid']
+            title: {
+                text: '(JA) = Job advert. (SB) = Submitted by member. * = based on hourly wage.'
+            }
         },
         yAxis: {
             min: 0,
@@ -25,20 +28,9 @@ $(function () {
                 }
             }
         },
-        legend: {
-            align: 'right',
-            x: -30,
-            verticalAlign: 'top',
-            y: 50,
-            floating: true,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.background2) || 'white',
-            borderColor: '#CCC',
-            borderWidth: 1,
-            shadow: false
-        },
         tooltip: {
-            headerFormat: '<b>{point.x}</b><br />',
-            pointFormat: '{series.name}: {point.y}<br/><b>Total:</b> {point.stackTotal}'
+            headerFormat: '<b>£{point.x}</b><br />',
+            pointFormat: 'Date recorded: {point.DateAdded}'
         },
         plotOptions: {
             column: {
@@ -50,9 +42,41 @@ $(function () {
         },
         series: [{
             name: 'Internships',
-            data: [24000,18000,18460,18564,15000,15000,14000],
+            data: [
+            {
+                y : 24000,
+                DateAdded : '2018'
+            },
+            {
+                y : 18000,
+                DateAdded : '2018'
+            },
+            {
+                y: 18460,
+                DateAdded : '2018'
+            },
+            {
+                y: 18564,
+                DateAdded : '2018'
+            },
+            {
+                y: 15000,
+                DateAdded : '2018'
+            },
+            {
+                y: 15000,
+                DateAdded : '2018'
+            },
+            {
+                y: 14000,
+                DateAdded : '2018'
+            }
+            ],
             color: '#63c6ae'
 
-        }]
+        },
+        credits: {
+        enabled: false
+    }]
     });
 });
