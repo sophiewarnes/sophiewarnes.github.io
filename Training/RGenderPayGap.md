@@ -9,10 +9,9 @@
 * [Making it look pretty (styling!)](#making-it-look-pretty)
 
 ### Requirements
-* A text editor (I recommend [Sublime Text](https://www.sublimetext.com/ "Sublime Text editor") as it marks things up really easily using colour, but textEdit or WordPad or another basic text editor will do! DO NOT USE MICROSOFT WORD!)
-* A browser (Chrome is great as it has a developer console which might help you figure out what went wrong, but any browser will do!)
-* Patience (most coding errors are tiny things like missed { or , and the sort of thing you will kick yourself over. Do not worry)
-* Enthusiasm is always appreciated :blush:
+* RStudio. This is the best tool to download packages, create and edit R scripts, as well as maintain projects. It's open source, free to use, and highly customisable. It's awesome. [Download it from RStudio.com](https://www.rstudio.com/products/rstudio/download/)
+* Patience. I find R quite intuitive but sometimes you might make a tiny mistake that you'll figure out later and want to kick yourself for. It's ok, we've all been there.
+* Enthusiasm is always appreciated :smiley:
 
 ### What are we doing?
 For this small project, we are going to be visualising gender pay gap data collected by the government using the [javascript library Highcharts](https://www.highcharts.com/ "Highcharts"). You can find the most up-to-date gender pay gap data [on the gov.uk website](https://gender-pay-gap.service.gov.uk/ "Gender Pay Gap Statistics") but the data is incomplete and a little messy. For the purposes of this tutorial, I cleaned the data, and uploaded it to my GitHub account so you can access it directly.
@@ -20,7 +19,7 @@ For this small project, we are going to be visualising gender pay gap data colle
 We are going to (try and) replicate this awesome chart [from the FT](https://ig.ft.com/gender-pay-gap-UK/ "FT Gender Pay Gap"):
 ![FT Chart](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/Files/FTChart.png "FT Gender Pay Gap Chart")
 
-> **Very Important Note:** If you want to use Highcharts at your organisation (ie for commercial use), you'll need to [pay for a license](http://www.highcharts.com/products/highcharts "Pay for a HighCharts license").
+
 
 ### Your first Highchart
 
