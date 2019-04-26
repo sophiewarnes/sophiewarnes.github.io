@@ -1,7 +1,13 @@
 # Soph's Github Page
 
-Hello! Welcome to my public GitHub page! This is fairly boring at the moment, but I have written a bunch of [training tutorials](https://sophiewarnes.github.io/Training "Soph's Training Tutorials").
+Hello! Welcome to my public GitHub page!
 
-If you want to learn more about me, [my website has more information](http://www.sophiewarnes.com "Sophie Warnes' site")
+I have written a couple of [training tutorials](https://sophiewarnes.github.io/Training "Soph's Training Tutorials").
 
-The best way of getting in touch with me is [through Twitter](http://www.twitter.com/SophieWarnes "@SophieWarnes on Twitter")
+If you want to learn more about me, [my website has more information](http://www.sophiewarnes.com "Sophie Warnes' site") about my career to-date.
+
+I have an awesome data visualisation / data journalism newsletter called Fair Warning, that gets sent out every Sunday. Feel free to [subscribe to Fair Warning](http://www.getrevue.co/FairWarning).
+
+The best way of getting in touch with me is [through Twitter](http://www.twitter.com/SophieWarnes "@SophieWarnes on Twitter") or through my website.
+
+Cheers!
