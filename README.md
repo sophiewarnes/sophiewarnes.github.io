@@ -8,6 +8,6 @@ I write an awesome data visualisation and data journalism newsletter called Fair
 
 I've started writing some [tutorials](https://sophiewarnes.github.io/Training "Soph's Training Tutorials") hosted right here on GitHub.
 
-The best way of getting in touch with me is [through Twitter](http://www.twitter.com/SophieWarnes "@SophieWarnes on Twitter") or through my website.
+The best way of getting in touch with me is [through Twitter](http://www.twitter.com/SophieWarnes "@SophieWarnes on Twitter") or [through my website](http://www.sophiewarnes.com "sophiewarnes.com").
 
 Cheers!
