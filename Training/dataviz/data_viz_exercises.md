@@ -10,3 +10,8 @@ Some datasets to try out:
 - Risk of flooding data (Wales, by region and local authority) [Download CSV](https://sophiewarnes.github.io/Training/datavizfiles/flooding_wales.csv)
 
 Note: You can also use the datasets that Datawrapper has to see what works and doesn't work.
+
+**Hints**:
+- If the chart isn't working, have you tried *transposing* the data?
+- What relationship are you trying to show? What's the best way of showing it?
+- We can't easily use the maps on Datawrapper with these datasets, so don't try to create maps
