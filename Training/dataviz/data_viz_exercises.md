@@ -14,4 +14,4 @@ Note: You can also use the datasets that Datawrapper has to see what works and d
 **Hints**:
 - If the chart isn't working, have you tried *transposing* the data?
 - What relationship are you trying to show? What's the best way of showing it?
-- We can't easily use the maps on Datawrapper with these datasets, so don't try to create maps
+- Have a look at the [FT's Visual Vocabulary](http://www.ft.com/vocabulary) to get some inspiration!
