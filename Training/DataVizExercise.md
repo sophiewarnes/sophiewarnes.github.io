@@ -1,6 +1,10 @@
 # Data visualisation exercise
 
-Hello! Welcome to my public GitHub page!
+Some datasets to try out:
+
+- Prescription data (top 10 prescriptions from 2006 to 2016) [Download CSV]
+
+
 
 You might be wanting to know a little more about me. Here is my [basic CV/resume](https://sophiewarnes.github.io/CV/warnes-cv.html "Sophie Warnes' CV"), but I have another with a little more detail if you're interested.
 
