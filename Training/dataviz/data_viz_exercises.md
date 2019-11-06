@@ -23,9 +23,22 @@ Note: You can also use the datasets that Datawrapper has to see what works and d
 2. Import the file into DataWrapper from your computer as shown and click 'proceed':
 
 ![Datawrapper 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper1.png "Datawrapper tutorial 1")
-3. Check that the data looks how you're expecting and there's no red in the table. Click 'proceed'
+
+3. Check that the data looks how you're expecting and there's no red in the table (as shown), then click 'proceed':
+
+![Datawrapper 2](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper2.png "Datawrapper tutorial 2")
+
 4. Choose the chart type that you think will work well for this data
-5. 
+5. Check the 'refine' button because that gives you a lot more options for changing how the chart looks, and the chart will update as you play around. You can change colours etc here.
+6. Look at 'annotate' - this lets you add text like a title, subtitle, etc, like so:
+
+![Datawrapper 3](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper3.png "Datawrapper tutorial 3")
+
+7. Note you can also check that it's okay for colour-blind people to tell the difference between line colours...
+
+![Datawrapper 4](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper4.png "Datawrapper tutorial 4")
+
+8. Click publish and embed, and you're done. You can also just take a screenshot of it, which is what I do!
 
 ### Hints:
 - If the chart isn't working, have you tried *transposing* the data?
