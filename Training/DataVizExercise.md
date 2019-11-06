@@ -2,7 +2,11 @@
 
 Some datasets to try out:
 
-- Prescription data (top 10 prescriptions from 2006 to 2016) [Download CSV]
+Change over time
+- Prescription data (top 10 prescriptions from 2006 to 2016) [Download CSV](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/datavizfiles/prescription_data.csv)
+
+Distribution
+- Gender pay gap data [Download CSV]()
 
 
 
