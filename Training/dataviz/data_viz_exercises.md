@@ -1,6 +1,6 @@
 # Data visualisation exercises
 
-Go to [datawrapper.de](http://www.datawrapper.de) and sign up for an account. Then, pick a dataset from below and experiment with different ways you can visualise it. The datasets are all 'clean' but you may want to delete columns to make it easier.
+Go to [datawrapper.de](http://www.datawrapper.de) - you don't have to sign up for an account, but it's useful if you want to keep using it (for free) to create charts easily. Then, pick a dataset from below and experiment with different ways you can visualise it. The datasets are all 'clean' but you may want to delete columns to make it easier.
 
 ## Contents
 * [Datasets](#datasets)
