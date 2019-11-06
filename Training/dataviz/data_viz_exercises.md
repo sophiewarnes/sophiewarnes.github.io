@@ -2,6 +2,12 @@
 
 Go to [datawrapper.de](http://www.datawrapper.de) and sign up for an account. Then, pick a dataset from below and experiment with different ways you can visualise it. The datasets are all 'clean' but you may want to delete columns to make it easier.
 
+## Contents
+* [Datasets](#datasets)
+* [How to use datawrapper](#how-to-use-datawrapper)
+* [Hints](#hints)
+
+### Datasets
 Some datasets to try out:
 - Prescription data (top 10 prescriptions in England, from 2006 to 2016) [Download CSV](https://sophiewarnes.github.io/Training/dataviz/files/prescription_data.csv)
 - Help to Buy data (Wales, by quarter) [Download CSV](https://sophiewarnes.github.io/Training/dataviz/files/htb_wales.csv)
@@ -11,7 +17,16 @@ Some datasets to try out:
 
 Note: You can also use the datasets that Datawrapper has to see what works and doesn't work.
 
-**Hints**:
+### How to use datawrapper
+
+1. Download a dataset above
+2. Import the file into DataWrapper from your computer as shown and click 'proceed':
+![Datawrapper 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper1.PNG "Datawrapper tutorial 1")
+3. Check that the data looks how you're expecting and there's no red in the table. Click 'proceed'
+4. Choose the chart type that you think will work well for this data
+5. 
+
+### Hints:
 - If the chart isn't working, have you tried *transposing* the data?
 - What relationship are you trying to show? What's the best way of showing it?
-- Have a look at the [FT's Visual Vocabulary](http://www.ft.com/vocabulary) to get some inspiration!
+- Have a look at the [FT's Visual Vocabulary](http://www.ft.com/vocabulary) to get some inspiration! Not every chart here is available on Datawrapper though.
