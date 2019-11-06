@@ -8,3 +8,5 @@ Some datasets to try out:
 - Gender pay gap data (number of companies by median gap) [Download CSV](https://sophiewarnes.github.io/Training/Files/paygapdata.csv)
 - Industry in Wales, by area [Download CSV](https://sophiewarnes.github.io/Training/datavizfiles/welsh_industry_data.csv)
 - Risk of flooding data (Wales, by region and local authority) [Download CSV](https://sophiewarnes.github.io/Training/datavizfiles/flooding_wales.csv)
+
+Note: You can also use the datasets that Datawrapper has to see what works and doesn't work.
