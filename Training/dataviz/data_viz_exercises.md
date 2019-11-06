@@ -21,7 +21,8 @@ Note: You can also use the datasets that Datawrapper has to see what works and d
 
 1. Download a dataset above
 2. Import the file into DataWrapper from your computer as shown and click 'proceed':
-![Datawrapper 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper1.PNG "Datawrapper tutorial 1")
+
+![Datawrapper 1](https://raw.githubusercontent.com/sophiewarnes/sophiewarnes.github.io/master/Training/dataviz/files/datawrapper1.png "Datawrapper tutorial 1")
 3. Check that the data looks how you're expecting and there's no red in the table. Click 'proceed'
 4. Choose the chart type that you think will work well for this data
 5. 
