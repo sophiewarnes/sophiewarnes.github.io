@@ -1,3 +1,3 @@
-## Data about the Chan Zuckerberg Initiative
+## Fair Warning archive
 
-This is a Hack Education project, tracking the financial and social networks of CZI
+I'm trying to figure out how to use GSheets as a database. Yep.
